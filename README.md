@@ -1,9 +1,10 @@
 # Code for Robustness Distributions in Neural Network Verification
 
 This repository contains the code and models from the paper:  
-**Robustness Distributionsin Neural Network Verification**  
-*Author(s): [Your Name(s)]*  
+**Robustness Distributions in Neural Network Verification**  
+*Author(s): Annelot W. Bosman, Aaron Berger Holger H. Hoos and Jan N. van Rijn 
 Published in: [Conference/Journal Name, Year]  
+citation key: 
 
 ---
 
@@ -54,6 +55,10 @@ The aim of this project is to [briefly describe the main objective/purpose of yo
     - [gtsrb_7_1024_standard.onnx](networks_onnx/gtsrb/gtsrb_7_1024_standard.onnx)
 - training: Code for the training and PyTorch implementations for the networks
 - verification: Code for verifying the networks
+- distributions: Data used in this paper.
+    - [chapter 4]: Verification using BaB for Relu networks 
+    - [chapter 5]:
+    - [chapter 6]: 
   
 ## External Packages
 This project uses the following external packages:
