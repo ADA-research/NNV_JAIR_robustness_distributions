@@ -4,28 +4,20 @@ This repository contains the code and models from the paper:
 **Robustness Distributions in Neural Network Verification**  
 *Author(s): Annelot W. Bosman, Aaron Berger Holger H. Hoos and Jan N. van Rijn 
 Published in: [Conference/Journal Name, Year]  
+Please use this citation key when using any of the information from this repository:
 citation key: 
 
 ---
 
-## Table of Contents
-- [Code for Robustness Distributions in Neural Network Verification](#code-for-robustness-distributions-in-neural-network-verification)
-  - [Table of Contents](#table-of-contents)
-  - [Overview](#overview)
-  - [Repository Structure](#repository-structure)
-  - [External Packages](#external-packages)
-
----
 
 ## Overview
 This repository provides:
 - Pre-trained models in **ONNX** format.
 - PyTorch implementations for training and verification of the models.
 - Experimentation scripts and instructions for reproducing results on **MNIST**, **CIFAR-10**, and **GTSRB** datasets.
+- Data used for all figures and tables in the JAIR paper.
 
-The aim of this project is to [briefly describe the main objective/purpose of your research or code].
-
----
+------
 
 ## Repository Structure
 - network_onnx: Network in the onnx formats
@@ -57,8 +49,8 @@ The aim of this project is to [briefly describe the main objective/purpose of yo
 - verification: Code for verifying the networks
 - distributions: Data used in this paper.
     - [chapter 4]: Verification using BaB for Relu networks 
-    - [chapter 5]:
-    - [chapter 6]: 
+    - [chapter 5]: Verification using alpha,beta-crown for Relu networks with adversarial training
+    - [chapter 6]:  Verification using alpha,beta-crown for CNN Relu networks with adversarial training
   
 ## External Packages
 This project uses the following external packages:
