@@ -54,9 +54,9 @@ This repository provides:
     - [gtsrb_cnn_deep_game_standard.onnx](networks_onnx/gtsrb/gtsrb_cnn_deep_game_standard.onnx)
     - [gtsrb_cnn_deep_game_fgsm.onnx](networks_onnx/gtsrb/gtsrb_cnn_deep_game_fgsm.onnx)
     - [gtsrb_cnn_deep_game_pgd.onnx](networks_onnx/gtsrb/gtsrb_cnn_deep_game_pgd.onnx)
-    - [gtsrb_cnn_deep_vnncomp23_relu_standard.onnx](networks_onnx/gtsrb/gtsrb_cnn_deep_vnncomp23_relu_standard.onnx)
-    - [gtsrb_cnn_deep_vnncomp23_relu_fgsm.onnx](networks_onnx/gtsrb/gtsrb_cnn_deep_vnncomp23_relu_fgsm.onnx)
-    - [gtsrb_cnn_deep_vnncomp23_relu_pgd.onnx](networks_onnx/gtsrb/gtsrb_cnn_deep_vnncomp23_relu_pgd.onnx)
+    - [gtsrb_cnn_vnncomp23_relu_standard.onnx](networks_onnx/gtsrb/gtsrb_cnn_vnncomp23_relu_standard.onnx)
+    - [gtsrb_cnn_vnncomp23_relu_fgsm.onnx](networks_onnx/gtsrb/gtsrb_cnn_vnncomp23_relu_fgsm.onnx)
+    - [gtsrb_cnn_vnncomp23_relu_pgd.onnx](networks_onnx/gtsrb/gtsrb_cnn_vnncomp23_relu_pgd.onnx)
 - training: Code for the training and PyTorch implementations for the networks
 - verification: Code for verifying the networks
 - distributions: Data used in this paper.
