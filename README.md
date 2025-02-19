@@ -28,6 +28,12 @@ This repository provides:
     - [mnist_7_1024_fgsm.onnx](networks_onnx/mnist/mnist_7_1024_fgsm.onnx)
     - [mnist_7_1024_pgd.onnx](networks_onnx/mnist/mnist_7_1024_pgd.onnx)
     - [mnist_7_1024_standard.onnx](networks_onnx/mnist/mnist_7_1024_standard.onnx)
+    - [convSmallRELU__Point.onnx](networks_onnx/mnist/convSmallRELU__Point.onnx)
+    - [convSmallRELU__DiffAI.onnx](networks_onnx/mnist/convSmallRELU__DiffAI.onnx)
+    - [convSmallRELU__PGDK.onnx](networks_onnx/mnist/convSmallRELU__PGDK.onnx)
+    - [convMedGRELU__Point.onnx](networks_onnx/mnist/convMedGRELU__Point.onnx)
+    - [convMedGRELU__PGDK_w_0.1.onnx](networks_onnx/mnist/convMedGRELU__PGDK_w_0.1.onnx)
+    - [convMedGRELU__PGDK_w_0.3.onnx](networks_onnx/mnist/convMedGRELU__PGDK_w_0.3.onnx)
   - [CIFAR-10](networks_onnx/cifar-10)
     - [cifar_7_1024_fgsm.onnx](networks_onnx/cifar-10/cifar_7_1024_fgsm.onnx)
     - [cifar_7_1024_pgd.onnx](networks_onnx/cifar-10/cifar_7_1024_pgd.onnx)
@@ -45,6 +51,12 @@ This repository provides:
     - [gtsrb_7_1024_fgsm.onnx](networks_onnx/gtsrb/gtsrb_7_1024_fgsm.onnx)
     - [gtsrb_7_1024_pgd.onnx](networks_onnx/gtsrb/gtsrb_7_1024_pgd.onnx)
     - [gtsrb_7_1024_standard.onnx](networks_onnx/gtsrb/gtsrb_7_1024_standard.onnx)
+    - [gtsrb_cnn_deep_game_standard.onnx](networks_onnx/gtsrb/gtsrb_cnn_deep_game_standard.onnx)
+    - [gtsrb_cnn_deep_game_fgsm.onnx](networks_onnx/gtsrb/gtsrb_cnn_deep_game_fgsm.onnx)
+    - [gtsrb_cnn_deep_game_pgd.onnx](networks_onnx/gtsrb/gtsrb_cnn_deep_game_pgd.onnx)
+    - [gtsrb_cnn_vnncomp23_relu_standard.onnx](networks_onnx/gtsrb/gtsrb_cnn_vnncomp23_relu_standard.onnx)
+    - [gtsrb_cnn_vnncomp23_relu_fgsm.onnx](networks_onnx/gtsrb/gtsrb_cnn_vnncomp23_relu_fgsm.onnx)
+    - [gtsrb_cnn_vnncomp23_relu_pgd.onnx](networks_onnx/gtsrb/gtsrb_cnn_vnncomp23_relu_pgd.onnx)
 - training: Code for the training and PyTorch implementations for the networks
 - verification: Code for verifying the networks
 - distributions: Data used in this paper.
