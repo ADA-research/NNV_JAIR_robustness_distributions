@@ -33,7 +33,7 @@ from torch.utils.data import DataLoader, Subset
 from sklearn.model_selection import StratifiedShuffleSplit
 
 
-CONFIG = '/home/bosmanaw/experiments_JAIR_revision/GTSRB/config/gtsrb.yaml'
+CONFIG = 'gtsrb.yaml'
 
 def get_balanced_sample(train_bool =True):
     seed = 42
