@@ -6,7 +6,7 @@ This repository contains the code and models from the paper:
 Published in: Under review at JAIR 
 Please use this citation key when using any of the information from this repository:
 citation key: 
-@inproceedings{BosEtAl23,
+- @inproceedings{BosEtAl23,
     author = {Bosman, Annelot W. and Hoos, Holger H. and van Rijn, Jan N.},
     title = {A Preliminary Study of Critical Robustness Distributions in Neural Network Verification},
     year = {2023},
@@ -70,10 +70,18 @@ This repository provides:
     - [chapter 4]: Verification using BaB for Relu networks 
     - [chapter 5]: Verification using alpha,beta-crown for Relu networks with adversarial training
     - [chapter 6]:  Verification using alpha,beta-crown for CNN Relu networks with adversarial training
-  
+
+## Reproduction instructions
+Note that we have used the parallel execution from the VERONA package, but as every cluster and device is different we have added the sequential execution for each experiment in this repository. 
+
+For each dataset we have added a main.py file in the corresponding [experiments](experiments/) folder. 
+
+
+
 ## External Packages
 This project uses the following external packages:
 - [VERONA](https://github.com/ADA-research/VERONA): An open-source package for creating Robustness Distributions.
 - [adversarial-training-box](https://github.com/Aaron99B/adversarial-training-box): An open-source package for adversarial training of neural networks with PyTorch.
 
-## Instructions
+
+
