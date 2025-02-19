@@ -1,0 +1,11 @@
+attack:
+  pgd_restarts: 100
+solver:
+  batch_size: 64
+  beta-crown:
+    iteration: 20
+bab:
+  timeout: 180
+
+
+# From https://github.com/Verified-Intelligence/alpha-beta-CROWN/blob/main/complete_verifier/exp_configs/beta_crown/cifar_conv_big.yaml

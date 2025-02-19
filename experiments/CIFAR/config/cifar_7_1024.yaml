@@ -1,0 +1,12 @@
+  attack:
+  pgd_restarts: 100
+solver:
+  batch_size: 64
+  beta-crown:
+    iteration: 20
+bab:
+  timeout: 180
+
+
+
+# Adapted from mnist_nn
