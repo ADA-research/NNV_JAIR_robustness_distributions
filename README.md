@@ -8,7 +8,7 @@ This repository contains the code and models from the paper:
 Published in: Under review at JAIR.
 
 Please use this citation key when using any of the information from this repository:
-citation key: 
+
 ```
 @inproceedings{BosEtAl23,
     author = {Bosman, Annelot W. and Hoos, Holger H. and van Rijn, Jan N.},
