@@ -32,10 +32,10 @@ This repository provides:
 ------
 
 ## Repository Structure
-- data: Folder containing the results from our verification experiments. Csv-files with the structure ```results_{dataset}_{paper}.csv``` contain the lower and upper bound for the robustness distribution for each separate image on both training and testing set for each investigated network. Csv-files with the structure ```per_epsilon_{dataset}_{paper}.csv``` contain the results for each image for each investigated epsilon on both training and testing set for each network investigated. 
-- experiments: Folder containing the code for running ab-crown experiments for all datasets. Note that we currently do not include the code for running the BAB experiments as we are integrating this still in the VERONA package.
-- training: Code for the training and PyTorch implementations for the networks
-- network_onnx: Network in the onnx formats
+- **data**: Folder containing the results from our verification experiments. Csv-files with the structure ```results_{dataset}_{paper}.csv``` contain the lower and upper bound for the robustness distribution for each separate image on both training and testing set for each investigated network. Csv-files with the structure ```per_epsilon_{dataset}_{paper}.csv``` contain the results for each image for each investigated epsilon on both training and testing set for each network investigated. 
+- **experiments**: Folder containing the code for running ab-crown experiments for all datasets. Note that we currently do not include the code for running the BAB experiments as we are integrating this still in the VERONA package.
+- **training**: Code for the training and PyTorch implementations for the networks
+- **network_onnx**: Network in the onnx formats
   - [MNIST](networks_onnx/mnist)
     - [mnist_6_256_fgsm.onnx](networks_onnx/mnist/mnist_6_256_fgsm.onnx)
     - [mnist_6_256_pgd.onnx](networks_onnx/mnist/mnist_6_256_pgd.onnx)
