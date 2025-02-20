@@ -3,7 +3,8 @@
 This repository contains the code and models from the paper:  
 **Robustness Distributions in Neural Network Verification**  
 *Author(s): Annelot W. Bosman, Aaron Berger Holger H. Hoos and Jan N. van Rijn 
-Published in: Under review at JAIR 
+Published in: Under review at JAIR.
+
 Please use this citation key when using any of the information from this repository:
 citation key: 
 - @inproceedings{BosEtAl23,
