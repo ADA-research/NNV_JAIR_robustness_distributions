@@ -29,7 +29,8 @@ This repository provides:
 
 ## Repository Structure
 - data: Folder containing the results from our verification experiments. Csv-files with the structure ```results_{dataset}_{paper}.csv``` contain the lower and upper bound for the robustness distribution for each separate image on both training and testing set for each investigated network. Csv-files with the structure ```per_epsilon_{dataset}_{paper}.csv``` contain the results for each image for each investigated epsilon on both training and testing set for each network investigated. 
-- experiments: Folder containing the code for running ab-crown experiments for all datasets. Note that we currently do not include the code for running the BAB experiments as we are integrating this still in the VERONA package. 
+- experiments: Folder containing the code for running ab-crown experiments for all datasets. Note that we currently do not include the code for running the BAB experiments as we are integrating this still in the VERONA package.
+- training: Code for the training and PyTorch implementations for the networks
 - network_onnx: Network in the onnx formats
   - [MNIST](networks_onnx/mnist)
     - [mnist_6_256_fgsm.onnx](networks_onnx/mnist/mnist_6_256_fgsm.onnx)
@@ -67,7 +68,6 @@ This repository provides:
     - [gtsrb_cnn_vnncomp23_relu_standard.onnx](networks_onnx/gtsrb/gtsrb_cnn_vnncomp23_relu_standard.onnx)
     - [gtsrb_cnn_vnncomp23_relu_fgsm.onnx](networks_onnx/gtsrb/gtsrb_cnn_vnncomp23_relu_fgsm.onnx)
     - [gtsrb_cnn_vnncomp23_relu_pgd.onnx](networks_onnx/gtsrb/gtsrb_cnn_vnncomp23_relu_pgd.onnx)
-- training: Code for the training and PyTorch implementations for the networks
 
 ## Reproduction instructions
 Note that we have used the parallel execution from the VERONA package, but as every cluster and device is different we have added the sequential execution for each experiment in this repository. 
