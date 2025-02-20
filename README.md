@@ -1,19 +1,22 @@
 # Code for Robustness Distributions in Neural Network Verification
 
 This repository contains the code and models from the paper:  
+
 **Robustness Distributions in Neural Network Verification**  
-*Author(s): Annelot W. Bosman, Aaron Berger Holger H. Hoos and Jan N. van Rijn 
+
+*Author(s): Annelot W. Bosman, Aaron Berger Holger H. Hoos and Jan N. van Rijn \
 Published in: Under review at JAIR.
 
 Please use this citation key when using any of the information from this repository:
-citation key: 
-- @inproceedings{BosEtAl23,
-    author = {Bosman, Annelot W. and Hoos, Holger H. and van Rijn, Jan N.},
-    title = {A Preliminary Study of Critical Robustness Distributions in Neural Network Verification},
-    year = {2023},
-    booktitle = {Workshop on Formal Methods for ML-Enabled Autonomous Systems (FOMLAS)},
-    volume = {6}
-}
+citation key: \
+ ```
+@inproceedings{BosEtAl23,
+    author = {Bosman, Annelot W. and Hoos, Holger H. and van Rijn, Jan N.},\
+    title = {A Preliminary Study of Critical Robustness Distributions in Neural Network Verification},\
+    year = {2023},\
+    booktitle = {Workshop on Formal Methods for ML-Enabled Autonomous Systems (FOMLAS)},\
+    volume = {6}}```
+
 
 ---
 
