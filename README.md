@@ -10,12 +10,12 @@ Published in: Under review at JAIR.
 Please use this citation key when using any of the information from this repository:
 
 ```
-@inproceedings{BosEtAl23,
-    author = {Bosman, Annelot W. and Hoos, Holger H. and van Rijn, Jan N.},
-    title = {A Preliminary Study of Critical Robustness Distributions in Neural Network Verification},
-    year = {2023},
-    booktitle = {Workshop on Formal Methods for ML-Enabled Autonomous Systems (FOMLAS)},
-    volume = {6}}
+@article{BosEtAl25,
+author = {Annelot W Bosman, Aaron Berger, Holger H Hoos, Jan N van Rijn},
+title = {Robustness Distributions in Neural Network Verification},
+booktitle = {Journal of Artificial Intelligence Research}.
+year = {2025}
+}
 ```
 
 
